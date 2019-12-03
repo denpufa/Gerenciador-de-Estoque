@@ -16,9 +16,9 @@ import HTML
   
   <h2>"Nao se preocupe nada aqui altera o estoque ainda de verdade teste os botões pro favor e passe pra rodolfo"</h2>
      
-     <a href="inserir.html"><button>inserir</button></a>
+     <a href="inserir.py"><button>inserir</button></a>
   
-     <a href="remover.html"><button>remover</button></a>
-     <a href="consultar.html"><button>consultar</button></a>
+     <a href="remover.py"><button>remover</button></a>
+     <a href="consultar.py"><button>consultar</button></a>
  </body>
  </html>
