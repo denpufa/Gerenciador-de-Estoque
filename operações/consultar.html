@@ -10,7 +10,7 @@
   <h3>O que voçê deseja consultar?</h3>  
   <p>
       
-     <form method="post" action="">
+     <form method="post" >
        <select name="cor">
         <option value="all">Qualquer</option>  
         <option value="white">Braco</option>
@@ -44,12 +44,16 @@
         
        <p>
         <div>
-         <input type="submit" value="OK" onclick="msg()"/>
+         <input type="submit" value="OK" onclick="msg()" onclick="alterar()"/>
         </div>
         <script>
             function msg()
             {
                 alert("Você clicou no botão!");
+            }
+            function alterar()
+            {
+
             }
         </script>
       </p>

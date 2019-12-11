@@ -11,7 +11,7 @@
   <h3>O que voçê deseja inserir?</h3>  
   <p>
       
-     <form method="POST" action="inserir.py">
+     <form method="post" >
        <select name="cor">
         <option value="white">Branco</option>
         <option value="black">Preto</option>
@@ -39,18 +39,22 @@
           <option value="baby">BabyLong</option>
       </select>
         <label for="qnt">Quantidade:</label>
-        <input type="text" id="qnt" />
+        <input type="number" id="qnt" min="1" max="50" />
         <label for="passw">Senha:</label>
         <input type="password" id="passw" />
     
        <p>
         <div>
-         <input type="submit" value="OK" onclick="msg()" />
+         <input type="submit" value="OK" onclick="msg()" onclick="alterar()" />
         </div>
         <script>
         function msg()
         {
             alert("Foi inserido com sucesso!");
+        }
+        function alterar()
+        {
+
         }
         </script>
       </p>
