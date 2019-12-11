@@ -40,12 +40,18 @@
         <label for="qnt">Quantidade:</label>
          <input type="text" id="qnt" />
         <label for="pass">Senha:</label>
-         <input type="password" id "passw"/>
+         <input type="password" id= "passw"/>
     
        <p>
         <div>
-         <input type="submit" value="OK" />
+         <input type="submit" value="OK" onclick="msg()" />
         </div>
+        <script>
+            function msg()
+            {
+                alert("foi removido com sucesso!");
+            }
+        </script>
       </p>
     </form>
   </p>
